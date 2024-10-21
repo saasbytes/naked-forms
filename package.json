@@ -3,6 +3,7 @@
   "private": true,
   "description": "Monorepo workspace for all things related to @naked-forms",
   "scripts": {
+    "preinstall": "npx only-allow pnpm"
   },
   "keywords": [
     "naked-forms",
