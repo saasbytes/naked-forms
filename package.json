@@ -1,9 +1,11 @@
 {
   "name": "@naked-forms/monorepo",
   "private": true,
+  "version": "0.0.0",
   "description": "Monorepo workspace for all things related to @naked-forms",
   "scripts": {
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "syncpack:ls": "syncpack list"
   },
   "keywords": [
     "naked-forms",
@@ -12,5 +14,8 @@
     "typescript"
   ],
   "author": "Alexandru Fox Enache",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "syncpack": "13.0.0"
+  }
 }

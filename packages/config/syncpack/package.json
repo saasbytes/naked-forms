@@ -1,0 +1,12 @@
+{
+  "name": "@config/syncpack-config",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "nuke": "rimraf dist .turbo node_modules"
+  },
+  "main": "index.js",
+  "peerDependencies": {
+    "syncpack": "13.0.0"
+  }
+}
