@@ -1,0 +1,15 @@
+{
+  "name": "@naked-forms/monorepo",
+  "private": true,
+  "description": "Monorepo workspace for all things related to @naked-forms",
+  "scripts": {
+  },
+  "keywords": [
+    "naked-forms",
+    "monorepo",
+    "pnpm",
+    "typescript"
+  ],
+  "author": "Alexandru Fox Enache",
+  "license": "MIT"
+}
