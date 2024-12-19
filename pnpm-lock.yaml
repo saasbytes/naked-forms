@@ -12,26 +12,26 @@ importers:
         specifier: 13.0.0
         version: 13.0.0
 
-  packages/config/syncpack:
+  config/syncpack:
     dependencies:
       syncpack:
         specifier: 13.0.0
         version: 13.0.0
 
-  packages/naked-forms-api-core:
+  packages/poc-api-core:
     dependencies:
       '@naked-forms/types':
         specifier: workspace:*
         version: link:../types
 
-  packages/naked-forms-api-poc:
+  packages/poc-api-hono:
     dependencies:
       '@hono/node-server':
         specifier: ^1.13.7
         version: 1.13.7(hono@4.6.14)
       '@naked-forms/api-core':
         specifier: workspace:*
-        version: link:../naked-forms-api-core
+        version: link:../poc-api-core
       '@naked-forms/types':
         specifier: workspace:*
         version: link:../types
