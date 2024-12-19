@@ -1,0 +1,2 @@
+keep this directory until adding transport related packages
+eg: sqs, activemq, redis, db, etc
