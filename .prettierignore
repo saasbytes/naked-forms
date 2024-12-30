@@ -1,0 +1,21 @@
+# Specific files
+pnpm-lock.yaml
+
+# Root directories
+.github
+.changeset
+
+# Deep Directories
+**/dist
+**/node_modules
+
+# next
+.next/
+.build/
+.coverage/
+
+# gatsby
+
+# nestjs
+
+# etc
