@@ -1,5 +1,5 @@
 {
-  "name": "@naked-forms/monorepo",
+  "name": "root",
   "private": true,
   "version": "0.0.0",
   "description": "Monorepo workspace for all things related to @naked-forms",
@@ -16,6 +16,16 @@
   "author": "Alexandru Fox Enache",
   "license": "MIT",
   "devDependencies": {
-    "syncpack": "13.0.0"
-  }
+		"@types/jest": "29.5.14",
+		"@types/node": "22.10.2",
+    "syncpack": "13.0.0",
+		"tsup": "8.3.5",
+		"typescript": "5.7.2"
+  },
+	"volta": {
+		"node": "22.12.0"
+	},
+	"engines": {
+		"node": ">=14"
+	}
 }

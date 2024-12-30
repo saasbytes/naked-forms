@@ -1,0 +1,17 @@
+{
+  "name": "@naked-forms/abstractions",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+		"build": "tsup ./src/index.ts --format esm,cjs --dts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+	"author": "Alexandru Fox Enache",
+	"license": "MIT",
+	"devDependencies": {
+	},
+	"volta": {
+		"node": "22.12.0"
+	}
+}
