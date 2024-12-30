@@ -1,0 +1,18 @@
+{
+  "name": "@config/typescript",
+	"description": "Shared typeScript configuration",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    "./base.json": "./base.json",
+    "./strict.json": "./strict.json",
+    "./strictest.json": "./strictest.json",
+    "./target-es2017.json": "./target-es2017.json"
+  },
+  "files": [
+    "./base.json",
+    "./strict.json",
+    "./strictest.json",
+		"./target-es2017.json"
+  ]
+}

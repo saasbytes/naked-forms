@@ -1,5 +1,5 @@
 {
-	"extends": "../../../tsconfig.json",
+	"extends": ["@config/typescript/strictest.json", "@config/typescript/target-es2017.json"],
 	"compilerOptions": {
 		"rootDir": "./src",
 		"outDir": "./dist",

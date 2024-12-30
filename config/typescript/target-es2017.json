@@ -1,0 +1,11 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig.json",
+	"display": "Target ES2017",
+	"compilerOptions": {
+		"target": "es2017",
+		"lib": ["es2017"],
+		"module": "commonjs",
+//		"sourceMap": true,
+		"types": ["node", "jest"]
+	}
+}

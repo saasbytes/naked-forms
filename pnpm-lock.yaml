@@ -43,6 +43,14 @@ importers:
         specifier: 13.0.0
         version: 13.0.0(typescript@5.7.2)
 
+  config/typescript: {}
+
+  packages/core/abstractions:
+    devDependencies:
+      '@config/typescript':
+        specifier: workspace:*
+        version: link:../../../config/typescript
+
   packages/poc-api-core:
     dependencies:
       '@naked-forms/types':

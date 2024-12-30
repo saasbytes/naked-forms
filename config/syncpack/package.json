@@ -1,5 +1,6 @@
 {
-  "name": "@config/syncpack-config",
+  "name": "@config/syncpack",
+	"description": "Shared syncpack configuration",
   "version": "0.0.0",
   "private": true,
   "scripts": {
